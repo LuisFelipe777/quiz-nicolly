@@ -7,7 +7,12 @@
 body {
   font-size: 62.5%;
   font-family: "Newsreader", serif;
-  background-image: url(../assets/bjk.png);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://lh3.googleusercontent.com/aida-public/AB6AXuAW-ZuZwDICmZbeuFbP2yCs-DJQ9BwG8UdgxAlItO2_lx4A0g0Fx4BDnEaZ4MwJj6qetcW2iVipRaQEGD0a6hvqJVVCRn15ngdeZpyLbfgyW7z1A6PvXfcwYRfLS6-JKWzWF2NrNyt-BayfGgIV8vO28qpcgpl_C9qdyO_qknRyzaK3bDR-tTyLSCxL_yJcOE1FcamlqvdPnZA7nDcf8zTpKzZX-ipZ9VGc-3zoVspDy3tHTVJXxiZnZLKU4e3_D_NafO6BQCPJLw);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100%;
 }
 
