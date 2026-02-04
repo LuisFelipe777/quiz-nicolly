@@ -1,0 +1,34 @@
+:root {
+  /* 🎯 Cores principais */
+  --color-primary: #b1121b; /* Vermelho principal (botões, destaque) */
+  --color-primary-hover: #d11a25; /* Vermelho mais vivo (hover) */
+  --color-accent: #7a0c12; /* Vermelho escuro/vinho */
+
+  /* 🖤 Fundos */
+  --bg-main: #0b0b0d; /* Fundo geral (quase preto) */
+  --bg-card: #141418; /* Cards / caixas */
+  --bg-card-soft: #1c1c22; /* Card com menos contraste */
+  --bg-gradient-start: #0b0b0d; /* Gradiente topo */
+  --bg-gradient-end: #1a0f12; /* Gradiente fundo */
+
+  /* ✨ Textos */
+  --text-primary: #ffffff; /* Texto principal */
+  --text-secondary: #cfcfd4; /* Texto secundário */
+  --text-muted-: #9a9aa1; /* Texto discreto */
+  --text-muted: #9a9aa180; /* Texto discreto */
+  --text-accent: #f2b3b6; /* Texto romântico/destaque */
+
+  /* 🔘 Bordas e divisões */
+  --border-default: #2a2a30;
+  --border-accent: #b1121b;
+
+  /* 🔴 Estados */
+  --success: #3fb950;
+  --error: #e5533d;
+  --warning: #f0b429;
+
+  /* 🌹 Extras (detalhes visuais) */
+  --rose-red: #c4161c;
+  --dark-wine: #3a0b10;
+  --shadow-red: rgba(177, 18, 27, 0.2);
+}

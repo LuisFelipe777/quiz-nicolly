@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  gap: 1rem;
+  width: 100%;
+  height: 3rem;
+}
+
+.link-previous {
+  display: flex;
+  background: none;
+  border: none;
+}
+.previous {
+  width: 2rem;
+}
+.text-pergunta {
+  color: var(--text-primary);
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
