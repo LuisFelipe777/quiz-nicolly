@@ -44,13 +44,14 @@ export function Perguntas() {
   const navigate = useNavigate();
   const [selected, setSelected] = useState(-1);
   const [perguntaAtual, setPerguntaAtual] = useState(0);
-  const progresso = (2 / 20) * 100;
+  const [progresso, setProgresso] = useState((1 / 4) * 100);
+  // const progresso = (2 / 20) * 100;
   const [respostasCorreta, setRespostasCorretas] = useState(0);
 
   function verificaResposta(respostaCerta, respostaSel, id) {
     if (selected < 0) return;
-
-    console.log(respostaCerta + " " + respostaSel);
+    setProgresso(((perguntaAtual + 2) / 4) * 100);
+    console.log(perguntaAtual);
     if (respostaCerta == respostaSel) {
       setRespostasCorretas(respostasCorreta + 1);
     } else {
